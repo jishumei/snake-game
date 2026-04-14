@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+  background: radial-gradient(circle at 20% 20%, #efe4da 0%, #e4d3c4 48%, #d8c2b0 100%);
+  color: #4f3f33;
+}
+
+#root {
+  min-height: 100vh;
+}
