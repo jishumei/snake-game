@@ -101,7 +101,12 @@ function App() {
         d: { x: 1, y: 0 },
       }
       const candidate = keyDirectionMap[event.key]
-      if (!candidate || isGameOver) {
+      if (!candidate) {
+        return
+      }
+
+      event.preventDefault()
+      if (isGameOver) {
         return
       }
 
